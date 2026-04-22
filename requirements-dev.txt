@@ -1,0 +1,9 @@
+# Development extras for local environments.
+# The Codex container already provides pytest; install manually if needed:
+# pip install pytest pytest-cov
+-r requirements.txt
+# Development extras for local and CI environments.
+-r requirements.txt
+
+pytest
+pytest-cov
